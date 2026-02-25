@@ -1,0 +1,39 @@
+log_level: INFO
+
+paths:
+  datastore_root: datastore
+  canonical_dir: datastore/silver
+  raw_dir: datastore/bronze
+  raw_archive_dir: datastore/bronze_archive
+  mapping_yaml: src/athena_regime/data/sources/mapping.yaml
+  runs_dir: runs
+
+ffill_limits:
+  prices: 5
+  cot: 7
+  policy: 5
+  macro: 5
+
+regime:
+  n_states: 4
+  n_hmm_iter: 80
+  n_restarts: 2
+  min_train_days: 252
+  prob_temperature: 1.1
+  min_state_occupancy: 0.02
+
+backtest:
+  train_window: 504
+  step_size: 63
+  refit_every: 63
+  expanding: true
+  transaction_cost_bps: 5.0
+  impact_bps: 2.0
+  bid_ask_bps: 1.0
+  max_leverage: 1.2
+  max_weight: 0.6
+  long_only: true
+  target_net_exposure: 1.0
+  turnover_cap: 0.25
+  rebalance_threshold: 0.08
+  borrow_spread_bps: 50.0
