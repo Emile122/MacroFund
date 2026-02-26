@@ -1,0 +1,12 @@
+{
+  "columns": {
+    "dt": "date",
+    "implied_cut_prob_3m": "float64",
+    "implied_cut_prob_6m": "float64",
+    "term_front_slope": "float64",
+    "terminal_shift_30d": "float64",
+    "source": "string"
+  },
+  "required": ["dt","implied_cut_prob_3m","implied_cut_prob_6m","term_front_slope","terminal_shift_30d","source"],
+  "sort_keys": ["dt"]
+}

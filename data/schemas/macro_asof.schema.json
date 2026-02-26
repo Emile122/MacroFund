@@ -1,0 +1,7 @@
+{
+  "columns": {
+    "month_end": "date"
+  },
+  "required": ["month_end"],
+  "sort_keys": ["month_end"]
+}

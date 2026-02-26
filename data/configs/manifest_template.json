@@ -1,0 +1,12 @@
+{
+  "datapack_id": "YYYYMMDD_vN",
+  "extraction_date": "YYYY-MM-DD",
+  "person": "owner_name",
+  "vendor_functions_used": ["fred.fetch_series"],
+  "tickers_and_fields": {"SPX_US": ["PX_LAST"]},
+  "frequencies": {"SPX_US": "daily"},
+  "currency_assumptions": {"SPX_US": "USD"},
+  "lag_assumptions": {"CPI_US": "P1M"},
+  "notes": "",
+  "raw_file_hashes": {}
+}

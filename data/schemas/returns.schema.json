@@ -1,0 +1,11 @@
+{
+  "columns": {
+    "dt": "date",
+    "instrument": "string",
+    "return": "float64",
+    "px_t": "float64",
+    "px_t_1": "float64"
+  },
+  "required": ["dt","instrument","return","px_t","px_t_1"],
+  "sort_keys": ["dt","instrument"]
+}

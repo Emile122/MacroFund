@@ -1,0 +1,6 @@
+series_lags:
+  CPI_US: P1M
+  CORE_CPI_US: P1M
+  INDPRO_US: P1M
+  PAYROLLS_US: P1M
+default_release_lag: P1M

@@ -1,0 +1,14 @@
+{
+  "columns": {
+    "dt_ingest": "date",
+    "report_date": "date",
+    "contract": "string",
+    "group": "string",
+    "net_pos": "int64",
+    "long": "int64",
+    "short": "int64",
+    "open_interest": "int64"
+  },
+  "required": ["dt_ingest","report_date","contract","group","net_pos","long","short","open_interest"],
+  "sort_keys": ["report_date","contract","group"]
+}

@@ -1,0 +1,6 @@
+calendar:
+  timezone: UTC
+  business_days: MON,TUE,WED,THU,FRI
+  holidays:
+    - 2026-01-01
+    - 2026-12-25

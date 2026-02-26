@@ -1,0 +1,13 @@
+{
+  "columns": {
+    "vendor": "string",
+    "dt": "date",
+    "instrument": "string",
+    "px_last": "float64",
+    "currency": "string",
+    "source_id": "string",
+    "fetch_ts": "timestamp"
+  },
+  "required": ["vendor","dt","instrument","px_last","currency","source_id","fetch_ts"],
+  "sort_keys": ["dt","instrument","vendor"]
+}

@@ -1,0 +1,11 @@
+{
+  "columns": {
+    "week": "string",
+    "contract": "string",
+    "group": "string",
+    "net_pos": "int64",
+    "zscore": "float64"
+  },
+  "required": ["week","contract","group","net_pos","zscore"],
+  "sort_keys": ["week","contract","group"]
+}

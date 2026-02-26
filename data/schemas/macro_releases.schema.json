@@ -1,0 +1,15 @@
+{
+  "columns": {
+    "dt_ingest": "date",
+    "series_id": "string",
+    "period": "date",
+    "release_date": "date",
+    "value": "float64",
+    "unit": "string",
+    "source": "string",
+    "vintage_id": "string",
+    "notes": "string"
+  },
+  "required": ["dt_ingest","series_id","period","value","source","vintage_id"],
+  "sort_keys": ["dt_ingest","series_id","period","vintage_id"]
+}

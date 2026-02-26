@@ -1,0 +1,18 @@
+vendors:
+  fred:
+    base_url: https://api.stlouisfed.org/fred
+    cadence: daily
+    auth_env: FRED_API_KEY
+  cftc:
+    cot_url: https://www.cftc.gov/dea/newcot/FinFutWk.txt
+    cadence: weekly
+  ecb:
+    base_url: https://data-api.ecb.europa.eu/service
+    cadence: daily
+  polygon:
+    base_url: https://api.massive.com
+    auth_env: MASSIVE_API_KEY
+  bloomberg_excel:
+    cadence: manual
+  cme:
+    cadence: daily

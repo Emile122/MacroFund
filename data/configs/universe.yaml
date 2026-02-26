@@ -1,0 +1,35 @@
+instruments:
+  SPX:
+    internal_id: SPX_US
+    vendor:
+      fred: SP500
+      polygon: I:SPX
+  US2Y:
+    internal_id: US2Y_US
+    vendor:
+      fred: DGS2
+  US10Y:
+    internal_id: US10Y_US
+    vendor:
+      fred: DGS10
+  EURUSD:
+    internal_id: EURUSD_FX
+    vendor:
+      fred: DEXUSEU
+macro_series:
+  CPIAUCSL:
+    internal_id: CPI_US
+    frequency: monthly
+  CPILFESL:
+    internal_id: CORE_CPI_US
+    frequency: monthly
+  PAYEMS:
+    internal_id: PAYROLLS_US
+    frequency: monthly
+  INDPRO:
+    internal_id: INDPRO_US
+    frequency: monthly
+cot_contracts:
+  TREASURY_BONDS:
+    internal_id: UST_BONDS
+    cftc_name_pattern: UST 10Y NOTE

@@ -1,0 +1,9 @@
+base_path: datastore
+bronze_path: datastore/bronze
+silver_path: datastore/silver
+gold_path: datastore/gold
+meta_path: datastore/meta
+partition_file_name: part-00000.parquet
+prices_last_n_days: 7
+cot_z_lookback_weeks: 260
+missing_critical_threshold: 0
